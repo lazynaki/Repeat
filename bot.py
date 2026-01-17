@@ -85,8 +85,8 @@ def process_command(message_content, author_username):
         target_channel = match.group(2)
         times = int(match.group(3))
         
-        if times <= 0 or times > 100:
-            return "❌ El número de veces debe estar entre 1 y 100"
+        if times <= 0 or times > 1000:
+            return "❌ El número de veces debe estar entre 1 y 1000"
         
         if active_cycle:
             return "🔄 Nuevo ciclo programado al acabar el actual"
