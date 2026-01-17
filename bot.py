@@ -4,8 +4,8 @@ import requests
 import time
 import re
 
-TOKEN = 'os.environ.get("TOKEN")'
-CHANNEL_ID = 'os.environ.get("CHANNEL_ID")'
+TOKEN = os.environ.get("TOKEN")
+CHANNEL_ID = os.environ.get("CHANNEL_ID")
 
 app = Flask(__name__)
 
