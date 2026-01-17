@@ -3,6 +3,7 @@ import threading
 import requests
 import time
 import re
+import os
 
 TOKEN = os.environ.get("TOKEN")
 CHANNEL_ID = os.environ.get("CHANNEL_ID")
